@@ -1,23 +1,23 @@
 body {
-  background pink;
+  background-color: pink;
 }
 
-h1 {
+h1{
   color: blue;
-  fontsize: 3em; 
+  font-size: small; 
 }
 
-h2 {
+h2{
   color: green;
-  font-weight: normal
+  font-weight: normal;
   font-style: italic;
 }
 
 .completed {
-  font-family: 12px;
+  font-family: aerial;
 }
 
-#tasks .completed {
-  backgound: #ccc;
+#tasks.completed {
+  background-color: green;
   text-decoration: underline;
 }
